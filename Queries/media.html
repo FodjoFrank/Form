@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: seagreen;
+        }
+        @media screen and (min-width: 480px) {
+  #main {
+    display: flex;
+    justify-content: center;
+    align-content: center;   
+}
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 16rem 0rem;
+  background-color: seagreen;
+}
+
+.flex-container > div {
+border: 2px solid;
+  width: 100px;
+  margin: 40px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<p id="paragraph">Max-width : 525px</p>
+<div class="flex-container">
+  <div class="display">Display</div>
+  <div>Min-size</div>
+  <div>Mid-size</div>
+  <div>Max-size</div>  
+</div>
+
+</html>

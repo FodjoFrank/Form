@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        height: 550px;
+        width: 350px;
+        margin: auto;
+        border: 2px solid #ccc;
+        padding: 1rem;
+        border-collapse: collapse;
+        border-radius: 8px;
+        padding: 2rem;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: auto;
+      }
+      input[type="text"] {
+        border: 1px solid #888;
+        border-collapse: collapse;
+        border-radius: 4px;
+        height: 25px;
+        width: 350px;
+      }
+      input[type="range"] {
+        width: 200px;
+      }
+      .radio {
+        flex-direction: row;
+        padding: 0.5rem 0rem;
+      }
+      select {
+        width: 100px;
+      }
+      textarea {
+        height: 180px;
+        width: 350px;
+      }
+      input[type="submit"] {
+        width: 100px;
+        height: 40px;
+        color: white;
+        background-color: rgb(67, 67, 212);
+        border: none;
+        border-radius: 3px;
+      }
+      .btn {
+        padding: 1.5rem 0rem;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <form>
+        <div class="ipt" style="padding: 0.5rem 0rem">
+          <label>Name</label><br />
+          <input type="text" />
+        </div>
+        <div>
+          <label>Age</label><br />
+          <input type="text" />
+        </div>
+
+        <div class="radio">
+          <label>Male <input type="radio" /></label>
+          <label class="r-1">Female <input type="radio" /></label>
+        </div>
+        <label style="padding: 1.2rem 0rem"
+          >Place of Birth
+          <select>
+            <option>Buea</option>
+            <option>Limbe</option>
+            <option>Douala</option>
+            <option>Yaounde</option>
+          </select>
+        </label>
+
+        <label style="padding: 0.5rem 0rem">Rate your IQ Level</label>
+        <input type="range" />
+
+        <p>Tell us more about yourself</p>
+        <textarea placeholder="Type here.."></textarea>
+        <div class="btn"><input type="Submit" /></div>
+      </form>
+    </div>
+  </body>
+</html>

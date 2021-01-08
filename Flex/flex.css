@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  background-color: aquamarine;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container {
+  display: flex;
+  width: 340px;
+  height: 350px;
+  border: 6px solid rgb(143, 143, 143);
+  border-radius: 13px;
+  flex-wrap: wrap;
+  border-radius: 7px 7px 7px 7px;
+}
+.sm-box {
+  display: flex;
+  background-color: rgb(204, 181, 181);
+  width: 100%;
+  padding: 0.2rem 0rem;
+  height: 33px;
+  flex-direction: row;
+  border-radius: 2px 2px 0px 0px;
+}
+.m-1 {
+  padding: 0.5rem 0.2rem;
+}
+.m-2 {
+  padding: 0.5rem 0.2rem;
+}
+.m-3 {
+  padding: 0.5rem 0.2rem;
+}
+
+.number {
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  border-radius: 10px;
+}
+.num {
+  width: 12px;
+  height: 12px;
+  background-color: green;
+  border-radius: 10px;
+}
+.n3 {
+  width: 12px;
+  height: 12px;
+  background-color: yellow;
+  border-radius: 10px;
+}
+.flex-container1 {
+  height: 305px;
+  width: 357px;
+  border: 6px solid white;
+  background-color: white;
+  border-radius: 0px 0px 5px 5px;
+}
+.orange {
+  display: flex;
+  width: 315px;
+  background-color: white;
+  height: 76px;
+  flex-flow: row;
+  align-items: flex-start;
+}
+.m-4 {
+  /* flex-grow: 3; */
+  display: flex;
+  background-color: orangered;
+  flex-flow: row;
+  border: none;
+  width: 100px;
+  height: 65px;
+  margin: 8px;
+  flex-grow: 4;
+}
+.m-5 {
+  background-color: orangered;
+  border: none;
+  width: 100px;
+  height: 65px;
+  margin: 8px;
+}
+.orange2 {
+  display: flex;
+  width: 315px;
+  height: 150px;
+  border: white;
+  background-color: white;
+  flex-flow: row;
+  align-items: flex-start;
+}
+.m-6 {
+  display: flex;
+  /* padding: 2rem 0rem; */
+  background-color: orange;
+  align-self: stretch;
+  border: none;
+  width: 280px;
+  height: 140px;
+  margin: 8px;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.m-7 {
+  background-color: purple;
+  border: none;
+  width: 155px;
+  height: 62px;
+  margin: 8px;
+}
+.m-8 {
+  background-color: purple;
+  border: none;
+  width: 155px;
+  height: 62px;
+  margin: 8px;
+}
+.green {
+  display: flex;
+  flex-direction: row;
+  border: white;
+  width: 315px;
+  height: 56px;
+  background-color: white;
+  flex-flow: row;
+  align-items: flex-start;
+}
+.m-9 {
+  background-color: rgb(34, 156, 150);
+  border: none;
+  width: 90px;
+  height: 45px;
+  margin: 8px;
+}
+.m-10 {
+  display: flex;
+  flex-flow: row;
+  background-color: rgb(34, 156, 150);
+  border: none;
+  flex-grow: 3;
+  width: 155px;
+  height: 45px;
+  margin: 8px;
+}
+.m-11 {
+  background-color: rgb(34, 156, 150);
+  border: none;
+  width: 90px;
+  height: 45px;
+  margin: 8px;
+}

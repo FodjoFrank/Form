@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="nav.css">
+	<link rel="stylesheet" type="text/css" href="core-style.css">
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+
+  <title>Document</title>
+  <style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo{
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+}
+.box{
+  height: 8vh;
+  width: 100vw;
+  background-color: rgb(5, 5, 114);
+ overflow: hidden;
+}
+.box ul{
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  padding: 24px 0px;
+}
+.ren{
+  width: 100vw;
+  height: 82vh;
+  background-color: teal;
+}
+.li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+.box ul li a{
+  padding: 3rem 9rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.dropdown {
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 5px 30px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* .box a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+} */
+.dropbtn a{
+  padding: 2rem 4rem;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #13023a;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: red;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <h1>LOGO</h1>
+  </div>
+	<nav class="box">
+    <ul>
+      <li>
+        <a href="#" class="home">Home</a></li>
+      <li> <a href="#" class="about">About</a></li> 
+      <li class="dropdown">
+        <button class="dropbtn">
+          <a>Services</a>
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Programming</a>
+          <a href="#">Web Development</a>
+          <a href="#">App Development</a>
+          <a href="#">Blogger</a>
+        </div>
+      </li>
+        <li><a href="#" class="contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="ren">
+
+  </div>
+                                    
+</body>
+</html>

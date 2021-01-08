@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .main{
+           width: 100vw;
+           height: 99vh;
+           background-color: violet;
+       }
+        .box{
+        height: 400px;
+        width: 350px;
+        margin: auto;
+        border: 2px solid #ccc;
+        border-collapse: collapse;
+        border-radius: 8px;
+        padding: 2rem;
+        background-color: rgb(81, 6, 143);
+        }
+        .mini{
+            text-align: center;
+            color: white;
+            border-bottom: 1px solid rgb(67, 201, 26);
+        }
+        form {
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: auto;
+        background-color: rgb(81, 6, 143);
+      }
+      input[type="text"] {
+        border: 1px solid #888;
+        border-collapse: collapse;
+        border-radius: 4px;
+        height: 35px;
+        width: 350px;
+        background: transparent;
+      }
+      ::placeholder{
+          font-family: Arial, Helvetica, sans-serif;
+          color: white;
+          font-weight: bold;
+      }
+      .btn{
+          margin: auto;
+      }
+      input[type='submit']{
+        width: 350px;
+        height: 40px;
+        color: white;
+        background-color: rgb(67, 201, 26);
+        border: none;
+        border-radius: 3px;
+      }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <form>
+            <div class="mini">
+            <h2>Login Form</h2>
+            </div>
+            <div class="ipt" style="padding: 0.5rem 0rem"><input  type='text' placeholder="Enter FirstName"/></div>
+            <div class="ipt1" style="padding: 0.5rem 0rem"><input type='text' placeholder="Enter LastName"/></div>
+            <div class="ipt2" style="padding: 0.5rem 0rem"><input type='text' placeholder="Enter Email"/></div>
+            <div class="ipt3" style="padding: 0.5rem 0rem"><input type='text' placeholder="Password"/></div>
+            <div class="ipt4" style="padding: 0.5rem 0rem"><input type='text' placeholder="Confirm Password"/></div>
+            <div class="btn" style="padding: 0.5rem 0rem"><input type='Submit'/></div>
+            </form>
+                </div>
+    </div>
+  
+</body>
+</html>
